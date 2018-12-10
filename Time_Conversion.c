@@ -12,4 +12,4 @@ int main()
     printf("%02d:%02d:%02d",a,b,c);
     return 0;
 }
-/*If you have any suggestion or any issue feel free to post in issue tab*/
+/*If you have any suggestion or any issue feel free to comment*/
