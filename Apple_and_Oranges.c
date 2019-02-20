@@ -53,6 +53,6 @@ void countAppleandOranges()
     printf("%d",apple);
     printf("\n%d",orange);
 }
-/*If you have any suggestion or any issue feel free to comment
+/*
 Copy and Paste the given link for the question https://www.hackerrank.com/challenges/apple-and-orange/problem 
 */
