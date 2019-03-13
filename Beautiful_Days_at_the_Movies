@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,c,r,e=0,rev=0,d;
+    cin>>a>>b>>c;
+    for(int i=a;i<=b;i++){
+        r=i;
+        while(r!=0){
+            rev=rev*10;
+            rev=rev+r%10;
+            r=r/10;
+        }
+        d=i-rev;
+        if((d%c)==0){
+            e++;
+        }
+        rev=0;
+    }
+    cout<<e;
+}
+//Link for the question https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem?h_r=next-challenge&h_v=zen
